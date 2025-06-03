@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/f1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website | Food Menu</title>
+</head>
+
+<body>
+    <!--Header for laptop (start)-->
+    <header>
+        <div class="header">
+
+            <!--Sign up/Sign in Form-->
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <!-- sign up form  -->
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    <!-- sign in form  -->
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="#">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (start)-->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (end)-->
+            <div class="logo">
+                <img src="../images/f3.gif" alt="logo">
+            </div>
+            <!--Bar/cross in header for mobile/tablet (start)-->
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <!--Bar/cross in header for mobile/tablet (end)-->
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header for laptop (end)-->
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Food Menu</h1>
+            </div>
+            <div class="fav-head">
+                <!-- Add your all food items  -->
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="../images/food1.jpg" alt="Food item">
+                        </div>
+                        <h3>PIZZA</h3>
+                        <button class="white_btn">check</button>
+                       
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>CHOW MEIN</h3>
+                        <button class="white_btn">check</button>
+                       
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food3.jpg" alt="Food item">
+                        </div>
+                        <h3>VEG MOMOS</h3>
+                       <a href="momo.html"><button class="white_btn">check</button></a>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food4.jpg" alt="Food item">
+                        </div>
+                        <h3>BIRYAANI</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/plate2.png" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/plate3.png" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/plate1.png" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/plate4.png" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/item1.jpg" alt="Food item">
+                        </div>
+                        <h3>VEGI SALAD</h3>
+                       <a href="veggi.html"><button class="white_btn">check</button></a>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/b1.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                       <a href="dosa.html"><button class="white_btn">check</button></a>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/b2.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/b3.jpg" alt="Food item">
+                        </div>
+                        <h3>Food name</h3>
+                        <button class="white_btn">check</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <ul class="social-icons">
+          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <!-- Add more social media icons as needed -->
+        </ul>
+    
+        <div class="email-icon">
+          <i class="far fa-envelope"></i>
+          <a href="mailto:info@example.com" style="text-decoration: underline; color: #171515;">:foodywoody80@gmail.com</a>
+         
+        </div class="phone-icon">
+      <marquee><span>"We value your opinion! Please take a moment to share your feedback on our website. Your insights are important to us and will help us enhance your experience.</span></marquee>
+        <div>
+
+        </div>
+      </footer>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>

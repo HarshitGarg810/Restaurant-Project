@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous Veg Momos</title>
+  <style>
+    body {
+        background:linear-gradient(90deg,rgb(248, 149, 92),rgb(240, 252, 105)); 
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .momo-card {
+      width: 200px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 20px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .momo-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .momo-img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .momo-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .momo-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .momo-order-btn {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #ff8c00;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .momo-order-btn:hover {
+      background-color: #cc7000;
+    }
+
+    .add-to-cart {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 15px;
+      background-color: #ff8c00;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .momo-card:hover .add-to-cart {
+      display: block;
+    }
+
+    .add-to-cart:hover {
+      background-color: #cc7000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Repeat this block for each veg momo card -->
+  <div class="momo-card">
+    <img class="momo-img" src="https://i.pinimg.com/originals/bf/7c/88/bf7c88347bbacda43416254b50626112.jpg" alt="Veg Momo 1">
+    <div class="momo-info">
+      <h2 class="momo-title"> Steamed mix veggies momos </h2>
+      <button class="momo-order-btn">Order Now</button>
+     
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://th.bing.com/th/id/OIP.wjmbWQEvwq5lHN1wk9o3KQHaEb?rs=1&pid=ImgDetMain" alt="Veg Momo 2">
+    <div class="momo-info">
+      <h2 class="momo-title">  Kothey momos </h2>
+      <button class="momo-order-btn">Order Now</button>
+      
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://i.pinimg.com/originals/fd/cd/f3/fdcdf3a34becea51eb7e7cccb3ef03a6.jpg" alt="Veg Momo 3">
+    <div class="momo-info">
+      <h2 class="momo-title">Spinach momos or green momos </h2>
+      <button class="momo-order-btn">Order Now</button>
+      
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://im.whatshot.in/img/2019/Aug/story-image-1565594059.png" alt="Veg Momo 4">
+    <div class="momo-info">
+      <h2 class="momo-title">Cheesy momos</h2>
+      <button class="momo-order-btn">Order Now</button>
+     
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://wp-public-fs.s3.ap-south-1.amazonaws.com/tasks/15f086ebda60875f8f594ee7c1bf0639a0168d32aa9f2a/images/momos-with-chutney-5f14ac4fb7729.jpg" alt="Veg Momo 5">
+    <div class="momo-info">
+      <h2 class="momo-title"> Mushroom momos</h2>
+      <button class="momo-order-btn">Order Now</button>
+      
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://5.imimg.com/data5/QG/BM/XQ/SELLER-21740637/momo-blog.jpg" alt="Veg Momo 6">
+    <div class="momo-info">
+      <h2 class="momo-title">Paneer momos</h2>
+      <button class="momo-order-btn">Order Now</button>
+     
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://th.bing.com/th/id/R.b7705edff7151dc42561df52e01ca514?rik=wEx76Bcif9nFdg&riu=http%3a%2f%2fs3-ap-southeast-1.amazonaws.com%2fasia.urbanpiper.com%2fmedia%2fbizmedia%2f2022%2f06%2f23%2fjotYLZVm-Cm3BoWRqZC6467BVPsLX3KomwrD3AQYU8m00ltqr.jpg&ehk=bw8cvSayvoLLw5Y3DnA8IdL1teCRRDYS3pXPQOB0ppc%3d&risl=&pid=ImgRaw&r=0" alt="Veg Momo 7">
+    <div class="momo-info">
+      <h2 class="momo-title">Chocolate momos</h2>
+      <button class="momo-order-btn">Order Now</button>
+     
+    </div>
+  </div>
+
+  <div class="momo-card">
+    <img class="momo-img" src="https://th.bing.com/th/id/OIP.GEGodbUajGDvx0ooRm_DCQAAAA?rs=1&pid=ImgDetMain" alt="Veg Momo 8">
+    <div class="momo-info">
+      <h2 class="momo-title"> Soup and dumplings</h2>
+      <button class="momo-order-btn">Order Now</button>
+    
+  </div>
+  <!-- End of veg momo card block -->
+
+</body>
+</html>
