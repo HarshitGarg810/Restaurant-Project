@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="../images/f1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+  />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous Burger Varieties</title>
+  <style>
+    body {
+      background:linear-gradient(90deg,rgb(249, 145, 84),rgb(240, 252, 105)); 
+    
+      font-family: 'Arial', sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .burger-card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 20px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .burger-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .burger-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .burger-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .burger-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .burger-desc {
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    .order-now-btn {
+      display: inline-block;
+      padding: 10px;
+      background-color: #ff8c00;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .order-now-btn:hover {
+      background-color: #cc7000;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="burger-card">
+    <img class="burger-img" src="https://th.bing.com/th/id/R.90dab247bfcc44e87e928d49955f0e7b?rik=cLKyRUx%2fustyfw&riu=http%3a%2f%2fwww.burgerweekly.com%2fwp-content%2fuploads%2f2014%2f05%2fClassic.jpg&ehk=MB09FCohZ2Y0wQwA3f8xZTN1fgFLl474d952RNSHj80%3d&risl=&pid=ImgRaw&r=0" alt="Burger 1">
+    <div class="burger-info">
+      <h2 class="burger-title">Classic Burger</h2>
+      <p class="burger-desc">A timeless favorite with a juicy joy patty.</p>
+      <a href="#" class="order-now-btn">Order Now</a>
+    </div>
+  </div>
+
+  <div class="burger-card">
+    <img class="burger-img" src="https://i.pinimg.com/originals/35/55/b1/3555b1ddeabfc486f659fc2b5fae172c.jpg" alt="Burger 2">
+    <div class="burger-info">
+      <h2 class="burger-title">Cheeseburger</h2>
+      <p class="burger-desc">Melted cheese on a succulent beef patty.</p>
+      <a href="#" class="order-now-btn">Order Now</a>
+    </div>
+  </div>
+
+  <div class="burger-card">
+    <img class="burger-img" src="https://th.bing.com/th/id/OIP.E-1WoY-0OyGEY8yLEjwGRgHaHa?rs=1&pid=ImgDetMain" alt="Burger 3">
+    <div class="burger-info">
+      <h2 class="burger-title">Bacon Burger</h2>
+      <p class="burger-desc">Savory bacon strips complementing the burger.</p>
+      <a href="#" class="order-now-btn">Order Now</a>
+    </div>
+  </div>
+
+  <div class="burger-card">
+    <img class="burger-img" src="https://th.bing.com/th/id/OIP.mYWENSTLAj5i18QVESbJogHaFM?rs=1&pid=ImgDetMain" alt="Burger 4">
+    <div class="burger-info">
+      <h2 class="burger-title">Veggie Burger</h2>
+      <p class="burger-desc">Delicious plant-based patty with fresh veggies.</p>
+      <a href="#" class="order-now-btn">Order Now</a>
+    </div>
+  </div>
+
+  <div class="burger-card">
+    <img class="burger-img" src="https://th.bing.com/th/id/OIP.z-3Ij2JCK3bgl57Pi5VM4QHaEw?rs=1&pid=ImgDetMain" alt="Burger 5">
+    <div class="burger-info">
+      <h2 class="burger-title">Spicy Burger</h2>
+      <p class="burger-desc">Fiery chicken patty for those who love heat.</p>
+      <a href="#" class="order-now-btn">Order Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
